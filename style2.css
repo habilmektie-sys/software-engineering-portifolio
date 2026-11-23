@@ -206,53 +206,129 @@ logo {
 .journey-item p {
     color: var(--gray);
 }
-h1,h2{
-    color: #a78bfa;
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-
-a{
-    color:#60a5fa;
-    text-decoration: none;
-    padding: 30px;
-}
-.hero{
-    display:flex;
-    gap: 40px;
-    margin:4px auto;
-    padding: 40px;
-    box-sizing: border-box;
+.skill-card {
+    background-color: var(--card-background);
+    border: 1px solid #203552;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: cadetblue;
 }
 
-.image img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 40x solid blueviolet;
-    margin-left: 20px;
+.skill-card h3 {
+    color: var(--light-blue);
+    margin-bottom: 10px;
 }
-.hero-text h3{
-    font-size: 32px;
-    color: #a78bfa;
-    margin-bottom: 15px;
+
+.skill-card p {
+    color: var(--gray);
 }
-.hero-text h4{
-    font-size: 14px;
-    color: #f8fafc;
+
+.skill-card:hover {
+    transform: translateY(-7px);
+    border-color: var(--blue);
+    box-shadow: 0 8px 25px rgba(57, 133, 255, 0.12);
 }
-.image{
- border-radius: 100px;
-    width: 250px;
-    height: 200px;
-    margin-left: 20px;
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: var(--card-background);
+    border: 1px solid #203552;
+    border-radius: 12px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-7px);
+    border-color: var(--blue);
+    box-shadow: 0 8px 25px rgba(57, 133, 255, 0.12);
+}
+
+.project-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #18345e;
+    color: var(--light-blue);
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
-    
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
+.project-card h3 {
+    margin-bottom: 12px;
 }
-.cotact a{
-    text-align: center;
+
+.project-card p {
+    color: var(--gray);
+    margin-bottom: 20px;
 }
+
+.project-tech {
+    color: var(--light-blue);
+    background-color: #1b3151;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.education-card {
+    background-color: var(--card-background);
+    border-left: 4px solid var(--blue);
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 650px;
+}
+
+.education-card h3 {
+    color: var(--light-blue);
+    margin-bottom: 10px;
+}
+
+.education-card p {
+    color: var(--gray);
+}
+.contact-card {
+    background-color: var(--light-blue);
+    border: 1px solid #203552;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 700px;
+}
+
+.contact-card p {
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+.contact-link {
+    display: inline-block;
+    color: var(--light-blue);
+    border: 1px solid var(--blue);
+    padding: 10px 16px;
+    margin: 5px 8px 5px 0;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact-link:hover {
+    background-color: var(--blue);
+    color: white;
+}
+
 footer{
     background-color: lightslategray;
     background-size: cover;
