@@ -20,7 +20,14 @@ header {
     backdrop-filter: blur(12px);
     border-bottom: 1px solid #1e3150;
 }
-
+#theme-toggle {
+    background: #3985ff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
 
 body {
     font-family: Arial, sans-serif;
