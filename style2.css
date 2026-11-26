@@ -345,3 +345,16 @@ footer p{
     text-align: center;
     padding: 25px;
 }
+
+.light-mode {
+    background-color: #f4f7fc;
+    color: #17233b;
+}
+
+.light-mode .section-title,
+.light-mode .hero-text h1,
+.light-mode .journey-item h3,
+.light-mode .project-card h3,
+.light-mode .skill-card h3 {
+    color: #17233b;
+}
